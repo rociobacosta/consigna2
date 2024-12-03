@@ -1,6 +1,7 @@
 # Este código fue realizado para cumplir con la consigna N°2 de la prueba tecnica para ingreso a pasante de soporte técnico
 
 ## Descripción
+Interprete que debo modificar el footer de la pagina pccore desde las herramiemtas del desarrollador, las soluciones que implemente me parecieron las más directas y menos invasivas con respecto al resto del código. Funcionan correctamente ya que fueron probadas en diversos navegadores
 ### 1. Cambiar el Color del Botón de Instagram. 
 Para cambiar el color del botón de Instagram, se oculta la imagen original del ícono y se reemplaza con una imagen personalizada usando un pseudoelemento '::before'. 
 ### 2. Cambiar el tamaño del mismo botón al pasar el mouse por encima. 
