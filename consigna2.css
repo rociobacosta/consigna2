@@ -1,0 +1,39 @@
+/* -------------CAMBIAR EL COLOR DEL BOTON DE INSTAGRAM---------------------- */
+.elementor-column.elementor-element.elementor-element-2nzm2f0.elementor-col-25.elementor-inner-column img {
+    display: none;
+}
+
+
+.elementor-column.elementor-element.elementor-element-2nzm2f0.elementor-col-25.elementor-inner-column figure::before {
+    content: '';
+    display: block;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/033/245/645/non_2x/instagram-icon-design-illustration-vector.jpg");
+    width: 100%;
+    height: 37px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+
+/* ----------------CAMBIAR EL TAMAÑO DEL BOTON DE INSTAGRAM----------------- */
+.elementor-widget-banner .elementor-iqit-banner-img {  
+    height: auto;                       
+}
+
+.elementor-element.elementor-element-331jfw4 .elementor-iqit-banner-overlay {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/033/245/645/non_2x/instagram-icon-design-illustration-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scale(1.5);
+}
+
+
+/* ---------------------ALTERAR DE POSICION EL ICONO-------------------------------------- */
+
+.elementor-row .elementor-element-2nzm2f0 {
+    order: 1; /*ICONO DE INSTAGRAM*/
+}
+
+
